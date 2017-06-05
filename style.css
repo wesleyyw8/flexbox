@@ -1,0 +1,37 @@
+body {
+  overflow-y: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+}
+.page .navbar {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.page .navbar input {
+  margin-right: 10px;
+  background: url(icon.png) no-repeat scroll 100% 0px;
+  padding-left: 5px;
+  background-size: 15px;
+  background-color: white;
+}
+.page .main {
+  display: flex;
+  height: 88vh;
+}
+.page .main .content {
+  background-color: red;
+  overflow-y: scroll;
+  flex: 8;
+}
+.page .main .sidebar {
+  flex: 2;
+  text-align: center;
+  background-color: #c3c3c3;
+}
