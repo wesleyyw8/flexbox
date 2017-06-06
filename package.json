@@ -1,0 +1,24 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyyw8/flexbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleyyw8/flexbox/issues"
+  },
+  "homepage": "https://github.com/wesleyyw8/flexbox#readme",
+  "dependencies": {
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
